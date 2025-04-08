@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage",
+    "test:cov": "vitest run --coverage",
     "format": "prettier --write ."
   },
   "dependencies": {
