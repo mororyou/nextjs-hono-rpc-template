@@ -2,7 +2,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
-import { TANSTACK_QUERY_CONFIG } from '@/constants/tanstack-query';
+import { TANSTACK_QUERY_CONFIG } from '@/libs/tanstack-query/config';
 import { ReactNode, useState } from 'react';
 
 export default function QueryProvider({ children }: { children: ReactNode }) {
