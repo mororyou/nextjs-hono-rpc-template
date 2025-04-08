@@ -1,0 +1,16 @@
+services:
+  next-hono-template-db:
+    image: postgres
+    container_name: next-hono-template-db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: default
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+
+volumes:
+  postgres:
